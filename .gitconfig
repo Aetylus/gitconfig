@@ -5,7 +5,7 @@
 	editor = C:/path/to/vim/gvim.exe
 	excludesfile = ~/.gitignore_global
 [alias]
-	simplelog = log --decorate --pretty=format:\"%C(auto)%h%d %s\"
+	simplelog = log --pretty=oneline --abbrev-commit --graph
 [difftool "gvimdiff"]
 	cmd = gvimdiff.bat -f $LOCAL $REMOTE
 [diff]
