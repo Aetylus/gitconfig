@@ -10,7 +10,7 @@
 	cmd = gvimdiff.bat -f $LOCAL $REMOTE
 [diff]
 	guitool = gvimdiff
-[merge]
-	tool = gvimdiff
 [mergetool "gvimdiff"]
 	cmd = gvimdiff.bat -f $MERGED $LOCAL $BASE $REMOTE -c 'wincmd J'
+[merge]
+	tool = gvimdiff
