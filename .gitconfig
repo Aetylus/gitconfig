@@ -1,15 +1,15 @@
 [user]
 	name = Your Name
 	email = youremail@site.com
-[difftool "gvimdiff"]
-	cmd = gvimdiff.bat -f $LOCAL $REMOTE
-[diff]
-	guitool = gvimdiff
 [core]
 	editor = C:/path/to/vim/gvim.exe
 	excludesfile = ~/.gitignore_global
 [alias]
 	simplelog = log --decorate --pretty=format:\"%C(auto)%h%d %s\"
+[difftool "gvimdiff"]
+	cmd = gvimdiff.bat -f $LOCAL $REMOTE
+[diff]
+	guitool = gvimdiff
 [merge]
 	tool = gvimdiff
 [mergetool "gvimdiff"]
